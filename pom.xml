@@ -1,0 +1,33 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.punnhom</groupId>
+    <artifactId>sample12</artifactId>
+    <version>demo</version>
+    
+    <repositories>
+        <repository>
+            <id>spring</id>
+            <url>https://repo.spring.io</url>
+        </repository>      
+    </repositories>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.7.1</version>
+        </dependency>
+    </dependencies>
+    
+    
+    <build>
+        <sourceDirectory>code/main</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+    </build>
+    
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+         <maven.compiler.target>18</maven.compiler.target>
+    </properties>
+    
+</project>
